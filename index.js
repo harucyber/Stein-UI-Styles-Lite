@@ -1,12 +1,12 @@
 // ==UserScript==
 // @name         Stein UI Styles LITE
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @description  Change UI elements
 // @author       Cullenn
-// @match        https://us.stein.world/play
-// @match        https://eu.stein.world/play
-// @match        https://asia.stein.world/play
+// @match        https://us.stein.world/game
+// @match        https://eu.stein.world/game
+// @match        https://asia.stein.world/game
 // @grant        GM_addStyle
 // ==/UserScript==
  
