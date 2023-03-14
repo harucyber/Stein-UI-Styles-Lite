@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         Stein UI Styles
 // @namespace    http://tampermonkey.net/
-// @version      1.3
+// @version      1.4
 // @description  Change UI elements
-// @author       Cullenn
-// @match        eu.stein.world/game
+// @author       Cullenn with RinUnderscore
+// @include      *
 // @grant        GM_addStyle
 // ==/UserScript==
 
