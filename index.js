@@ -4,7 +4,7 @@
 // @version      1.4
 // @description  Change UI elements
 // @author       Cullenn with RinUnderscore
-// @include      *
+// @match        https://*.stein.world/game*
 // @grant        GM_addStyle
 // ==/UserScript==
 
