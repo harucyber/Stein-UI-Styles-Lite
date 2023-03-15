@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Stein UI Styles
 // @namespace    http://tampermonkey.net/
-// @version      1.6
+// @version      1.6.1
 // @description  Change UI elements
 // @author       Cullenn with RinUnderscore
 // @match        https://*.stein.world/game*
