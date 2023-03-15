@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Stein UI Styles
 // @namespace    http://tampermonkey.net/
-// @version      1.4
+// @version      1.5
 // @description  Change UI elements
 // @author       Cullenn with RinUnderscore
 // @match        https://*.stein.world/game*
@@ -306,9 +306,7 @@ function toggleMiniMap(e){
 }
 function delayedInitLoop(){
     setTimeout(function(){
-        if(document.querySelector('div.stein-life-bar-player')){
-            document.querySelector('div.stein-life-bar-player').remove();
-        }
+	// This is where the code for removing HP and Username Bars are, but I have removed and edited it for clarity.
 
         if(document.querySelector('.stein-quick-bar-slot[style*="border"]')){
             //currentQuickbarItemObserver.observe(document.querySelector('.stein-quick-bar-slot[style*="border"]'), currentQuickbarItemConfig);
