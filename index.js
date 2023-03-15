@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Stein UI Styles
 // @namespace    http://tampermonkey.net/
-// @version      1.6.1
+// @version      1.7
 // @description  Change UI elements
 // @author       Cullenn with RinUnderscore
 // @match        https://*.stein.world/game*
@@ -250,8 +250,8 @@ function hideMiniMap(e){
 }
 
 function toggleMiniMap(e){
-    if(e.code == 'KeyM' || e.key == 'm' || e.keyCode == 27){
-        if(e.keyCode == 27){
+    if(e.code == 'KeyY' || e.key == 'y'){
+        if(e.code == 'KeyY'){
             setTimeout(function(){document.dispatchEvent(mapSync);}, 1); // We just killed whatever is hooked up to actively updating the map, pretend to open the map again
         }
         if(miniMapVisible && e.keyCode != 27){
