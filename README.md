@@ -7,3 +7,6 @@ https://greasyfork.org/en/scripts/461832-stein-ui-styles
 Or go onto Tampermonkey/ any other browser code injectors and copy and paste what is in index.js
 
 Thanks!
+
+
+Press Y to turn off minimap if it overlaps with other stuff.
