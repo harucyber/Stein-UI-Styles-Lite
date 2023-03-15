@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Stein UI Styles
 // @namespace    http://tampermonkey.net/
-// @version      1.5
+// @version      1.6
 // @description  Change UI elements
 // @author       Cullenn with RinUnderscore
 // @match        https://*.stein.world/game*
@@ -30,8 +30,6 @@
 
 #stein-professions-window-frame{
     position: absolute;
-    top: 250px;
-    height: calc(100vh - 512px);
 }
 
 #stein-professions-overview-level-label{
@@ -47,26 +45,7 @@
 
 /* INVENTORY SECTION START */
 
-#stein-inventory-window-frame{
-    position: absolute;
-    bottom: 66px;
-    width: 570px;
-}
-
 /* INVENTORY SECTION END */
-
-
-/* QUEST LOG SECTION START */
-
-#stein-quest-log-window-frame{
-    width: 338px;
-    position: absolute;
-    top: 250px;
-    max-height: calc(100vh - 512px);
-}
-
-/* QUEST LOG SECTION END */
-
 
 /* PLAYER FRAME SECTION START */
 
@@ -207,25 +186,6 @@ position: absolute;
 /* STAT WINDOW SECTION END */
 
 
-/* VENDOR WINDOW SECTION START */
-
-#stein-trade-window-frame{
-position: absolute;
-    top: 250px;
-}
-
-#stein-trade-window-sell-area{
-    height: 47px
-    line-height: 47px
-}
-
-#stein-trade-window-sell-title{
-    display: none;
-}
-
-/* VENDER WINDOW SECTION END */
-
-
 /* NEED/GREED WINDOW SECTION START */
 
 .stein-need-or-greed {
@@ -306,7 +266,8 @@ function toggleMiniMap(e){
 }
 function delayedInitLoop(){
     setTimeout(function(){
-	// This is where the code for removing HP and Username Bars are, but I have removed and edited it for clarity.
+
+        // Remove HP Bar Code Removed
 
         if(document.querySelector('.stein-quick-bar-slot[style*="border"]')){
             //currentQuickbarItemObserver.observe(document.querySelector('.stein-quick-bar-slot[style*="border"]'), currentQuickbarItemConfig);
